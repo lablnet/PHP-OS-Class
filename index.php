@@ -1,5 +1,6 @@
-<?php 
+<?php
+
 require_once 'classes/OperatingSystem.php';
 
-$os = new OperatingSystem;
+$os = new OperatingSystem();
 echo $os->get();
